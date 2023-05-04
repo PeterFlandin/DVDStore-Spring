@@ -1,5 +1,6 @@
 package com.mycompany.dvd;
 
+import com.mycompany.dvd.controller.MovieController;
 import com.mycompany.dvd.entity.Movie;
 import com.mycompany.dvd.service.MovieService;
 
@@ -14,22 +15,12 @@ public class App
     public static void main( String[] args )
             
     {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Nom du film à creer ?");
-        String titleM = sc.nextLine();
+        MovieController movieController = new MovieController();
 
-        System.out.println("Nom du film à creer ?");
-        String genreM = sc.nextLine();
-
-        Movie movie = new Movie();
-        movie.setTitle(titleM);
-        movie.setGenre(genreM);
-
-        MovieService movieService = new MovieService();
-        movieService.addMovie(movie);
+        movieController.addUsingControle();
 
 
-        System.out.println( "Hello World!" );
+
     }
 }
