@@ -4,7 +4,7 @@ import com.mycompany.dvd.entity.Movie;
 
 import java.io.FileWriter;
 
-public class GoLiveMovieRepository {
+public class GoLiveMovieRepository implements MovieRepositoryInterface {
 
 
     public void add(Movie movie) {

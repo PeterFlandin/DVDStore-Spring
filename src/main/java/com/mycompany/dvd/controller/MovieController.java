@@ -2,11 +2,12 @@ package com.mycompany.dvd.controller;
 
 import com.mycompany.dvd.entity.Movie;
 import com.mycompany.dvd.service.MovieService;
+import com.mycompany.dvd.service.MovieServiceInterface;
 
 import java.util.Scanner;
 
 public class MovieController {
-    private static MovieService movieService = new MovieService();
+    private static MovieServiceInterface movieServiceInterface;
 
     public static void addUsingControle () {
 
@@ -22,7 +23,7 @@ public class MovieController {
         movie.setTitle(titleM);
         movie.setGenre(genreM);
 
-        movieService.addMovie(movie);
+        movieServiceInterface.registerMovie(movie);
 
 
         System.out.println( "Hello World!" );

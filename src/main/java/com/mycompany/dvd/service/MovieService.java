@@ -4,11 +4,11 @@ import com.mycompany.dvd.entity.Movie;
 import com.mycompany.dvd.repository.GoLiveMovieRepository;
 import com.mycompany.dvd.repository.MovieRepository;
 
-public class MovieService {
+public class MovieService implements  MovieServiceInterface {
 
     private GoLiveMovieRepository movieRepository = new GoLiveMovieRepository();
 
-    public void addMovie(Movie movie){
+    public void registerMovie (Movie movie){
 
         movieRepository.add(movie);
 
