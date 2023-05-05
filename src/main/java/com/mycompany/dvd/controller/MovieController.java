@@ -1,15 +1,22 @@
 package com.mycompany.dvd.controller;
 
 import com.mycompany.dvd.entity.Movie;
-import com.mycompany.dvd.service.MovieService;
 import com.mycompany.dvd.service.MovieServiceInterface;
 
 import java.util.Scanner;
 
 public class MovieController {
-    private static MovieServiceInterface movieServiceInterface;
+    private MovieServiceInterface movieServiceInterface;
 
-    public static void addUsingControle () {
+    public MovieServiceInterface getMovieServiceInterface() {
+        return movieServiceInterface;
+    }
+
+    public void setMovieServiceInterface(MovieServiceInterface movieServiceInterface) {
+        this.movieServiceInterface = movieServiceInterface;
+    }
+
+    public void addUsingControle() {
 
         Scanner sc = new Scanner(System.in);
 
