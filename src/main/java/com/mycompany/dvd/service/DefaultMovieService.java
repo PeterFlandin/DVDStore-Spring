@@ -3,7 +3,7 @@ package com.mycompany.dvd.service;
 import com.mycompany.dvd.entity.Movie;
 import com.mycompany.dvd.repository.MovieRepositoryInterface;
 
-public class MovieService implements MovieServiceInterface {
+public class DefaultMovieService implements MovieServiceInterface {
 
    private MovieRepositoryInterface movieRepositoryInterface;
 

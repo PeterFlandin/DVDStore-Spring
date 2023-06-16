@@ -1,11 +1,8 @@
 package com.mycompany.dvd;
 
 import com.mycompany.dvd.controller.MovieController;
-import com.mycompany.dvd.entity.Movie;
-import com.mycompany.dvd.repository.GoLiveMovieRepository;
-import com.mycompany.dvd.service.MovieService;
-
-import java.util.Scanner;
+import com.mycompany.dvd.repository.FileMovieRepository;
+import com.mycompany.dvd.service.DefaultMovieService;
 
 /**
  * Hello world!
@@ -19,8 +16,8 @@ public class App
 
         MovieController movieController = new MovieController();
 
-        GoLiveMovieRepository goLiveMovieRepository = new GoLiveMovieRepository();
-        MovieService movieService = new MovieService();
+        FileMovieRepository goLiveMovieRepository = new FileMovieRepository();
+        DefaultMovieService movieService = new DefaultMovieService();
 movieController.setMovieServiceInterface(movieService);
 movieService.setMovieRepositoryInterface(goLiveMovieRepository);
 
