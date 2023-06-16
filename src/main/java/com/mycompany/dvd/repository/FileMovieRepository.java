@@ -2,10 +2,20 @@ package com.mycompany.dvd.repository;
 
 import com.mycompany.dvd.entity.Movie;
 
+import java.io.File;
 import java.io.FileWriter;
 
 public class FileMovieRepository implements MovieRepositoryInterface {
 
+private File file;
+
+    public File getFile() {
+        return file;
+    }
+
+    public void setFile(File file) {
+        this.file = file;
+    }
 
     public void add(Movie movie) {
 

@@ -14,6 +14,8 @@
 
 
     <bean id="movieRepository" class="com.mycompany.dvd.repository.FileMovieRepository">
+    <property name="file" value="C:\\temp\\movies.csv"/>
+
     </bean>
 
 </beans>
