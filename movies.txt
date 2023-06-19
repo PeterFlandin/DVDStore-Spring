@@ -6,3 +6,5 @@ jhk
 kl
 klj
 klm
+jhk*
+k

@@ -1,11 +1,13 @@
-package com.mycompany.dvd.repository;
+package com.mycompany.dvd.repository.file;
 
 import com.mycompany.dvd.entity.Movie;
+import com.mycompany.dvd.repository.MovieRepositoryInterface;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Repository;
 
 import java.io.File;
 import java.io.FileWriter;
-
+@Repository
 public class FileMovieRepository implements MovieRepositoryInterface {
 @Value("movies.file.location")
 private File file;
