@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d71ac9c4-70cb-45dc-a787-c0a8b0d0b058" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/about-us.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mycompany/dvd/controller/AboutUsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mycompany/dvd/controller/AboutUsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +63,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrateur\Desktop\DocSpring\DvdStore-Spring\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrateur\Desktop\DocSpring\DvdStore-Spring\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -201,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687266647808</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ajout page static avec mapping">
+      <created>1687269194184</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687269194184</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -219,6 +233,7 @@
     <MESSAGE value="ajout de spring" />
     <MESSAGE value="ajout de springboot avec les bonnes dependences" />
     <MESSAGE value="autoconfig port et context path application.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="autoconfig port et context path application.properties" />
+    <MESSAGE value="ajout page static avec mapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout page static avec mapping" />
   </component>
 </project>
