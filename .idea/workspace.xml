@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687185097449</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ajout de spring">
+      <created>1687253942870</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687253942870</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -193,6 +200,7 @@
     <MESSAGE value="ajout component scan" />
     <MESSAGE value="ajout AppConfig.java pour applicationContext.xml" />
     <MESSAGE value="app devien config et on supprime le AppConfig.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="app devien config et on supprime le AppConfig.java" />
+    <MESSAGE value="ajout de spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout de spring" />
   </component>
 </project>
