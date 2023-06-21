@@ -9,7 +9,7 @@ import java.util.List;
 //@Repository
 public class MemoryMovieRepository implements MovieRepositoryInterface {
 
-private  static List<Movie> movies = new ArrayList<>();
+private static List<Movie> movies = new ArrayList<>();
 
 
 public void add(Movie movie){
@@ -17,9 +17,11 @@ public void add(Movie movie){
     movies.add(movie);
     System.out.println("movie added " + movie.getTitle()+ " de type " + movie.getGenre());
 
-
 }
-
+    @Override
+    public List<Movie> list() {
+    return movies;
+    }
 
 
 }
