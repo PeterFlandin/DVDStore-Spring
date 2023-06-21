@@ -1,6 +1,6 @@
-package com.mycompany.dvd.service;
+package com.dvdstore.dvd.store.service;
 
-import com.mycompany.dvd.entity.Movie;
+import com.dvdstore.dvd.store.entity.Movie;
 
 import java.util.List;
 public interface MovieServiceInterface {

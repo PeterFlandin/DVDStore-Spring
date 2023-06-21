@@ -1,4 +1,4 @@
-package com.mycompany.dvd.entity;
+package com.dvdstore.dvd.store.entity;
 
 public class Movie {
     private String title;

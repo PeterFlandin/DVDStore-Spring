@@ -1,7 +1,7 @@
-package com.mycompany.dvd.controller;
+package com.dvdstore.dvd.store.controller;
 
-import com.mycompany.dvd.entity.Movie;
-import com.mycompany.dvd.service.MovieServiceInterface;
+import com.dvdstore.dvd.store.entity.Movie;
+import com.dvdstore.dvd.store.service.MovieServiceInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
