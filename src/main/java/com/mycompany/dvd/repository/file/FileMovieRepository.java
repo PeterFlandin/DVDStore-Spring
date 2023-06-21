@@ -2,7 +2,6 @@ package com.mycompany.dvd.repository.file;
 
 import com.mycompany.dvd.entity.Movie;
 import com.mycompany.dvd.repository.MovieRepositoryInterface;
-import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
