@@ -1,6 +1,6 @@
-package com.mycompany.dvd.repository;
+package com.dvdstore.dvd.store.repository;
 
-import com.mycompany.dvd.entity.Movie;
+import com.dvdstore.dvd.store.entity.Movie;
 
 import java.util.List;
 

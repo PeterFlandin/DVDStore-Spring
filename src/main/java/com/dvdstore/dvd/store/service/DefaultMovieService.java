@@ -1,7 +1,7 @@
-package com.mycompany.dvd.service;
+package com.dvdstore.dvd.store.service;
 
-import com.mycompany.dvd.entity.Movie;
-import com.mycompany.dvd.repository.MovieRepositoryInterface;
+import com.dvdstore.dvd.store.entity.Movie;
+import com.dvdstore.dvd.store.repository.MovieRepositoryInterface;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
