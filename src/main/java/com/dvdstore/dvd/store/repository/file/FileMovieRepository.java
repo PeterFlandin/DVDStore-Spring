@@ -1,7 +1,7 @@
-package com.mycompany.dvd.repository.file;
+package com.dvdstore.dvd.store.repository.file;
 
-import com.mycompany.dvd.entity.Movie;
-import com.mycompany.dvd.repository.MovieRepositoryInterface;
+import com.dvdstore.dvd.store.entity.Movie;
+import com.dvdstore.dvd.store.repository.MovieRepositoryInterface;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
